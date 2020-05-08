@@ -1,5 +1,5 @@
 {
-	"homepage": "http://ibranafis.github.io/react-forms-app",
+  "homepage": "https://ibranafis.github.io/react-forms-app",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +16,8 @@
     "gh-pages": "^2.2.0"
   },
   "scripts": {
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

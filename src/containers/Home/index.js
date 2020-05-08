@@ -93,7 +93,7 @@ class Home extends Component {
           <h1>Profile Info</h1>
           <form onSubmit={this.handleSubmit} noValidate>
             <div className="fname">
-              <label htmlFor="fname">First Name</label>
+              <label htmlFor="fname">Name</label>
               <input
                 className={formErrors.fname.length > 0 ? "error" : null}
                 placeholder="Name"
